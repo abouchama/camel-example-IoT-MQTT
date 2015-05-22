@@ -17,13 +17,13 @@ For more help see the Apache Camel documentation
 
     http://camel.apache.org/
 
-![alt tag](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/src/ReadMe/EIP.png)    
+![alt tag](https://cloud.githubusercontent.com/assets/1347006/7772386/187edfa4-009e-11e5-96fc-ad2f881dfd2b.png)    
     
- Tools:
- ======
+ - Tools:
+ 
  Simple WebSocket Client -- Google Chrome Application
  MQTTLens -- Google Chrome Application
  
- Keyword:
- =======
+ - Keyword:
+ 
  Camel, IoT, M2M, Integration
