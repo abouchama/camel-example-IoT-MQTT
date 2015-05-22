@@ -17,7 +17,7 @@ For more help see the Apache Camel documentation
 
     http://camel.apache.org/
 
-![alt tag](https://github.com/abouchama/camel-example-IoT-MQTT/tree/master/src/ReadMe/EIP.png)    
+![alt tag](https://github.com/abouchama/camel-example-IoT-MQTT/blob/master/src/ReadMe/EIP.png)    
     
  Tools:
  ======
