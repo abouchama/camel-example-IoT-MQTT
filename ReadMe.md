@@ -70,7 +70,9 @@ There is a separate Command model similar to the one above to request “field:l
  Internet automatically, by year 2020, there will be more then 50 Billions of device and things 
  connecting to the internet. 
  And Within the vast majority of device there are many standard protocols for them to interact and connect. 
- MQTT is one of them. A-MQ supports MQTT, [Message Queuing Telemetry Transport][1]. 
+ MQTT is one of them. A-MQ supports MQTT[^MQTT], Message Queuing Telemetry Transport. 
  In this session we will give some basic background on AMQP and demo how A-MQ can connect via Apache Qpid. And discuss the value it brings to the Enterprise.
  
- [1]: http://mqtt.org/
+ [^MQTT]: [MQTT](http://mqtt.org/) is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. 
+ It was designed as an extremely lightweight publish/subscribe messaging transport. 
+ It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium.
