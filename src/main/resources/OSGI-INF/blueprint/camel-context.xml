@@ -20,15 +20,17 @@
     xsi:schemaLocation="http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd">
 
     <camelContext trace="true" xmlns="http://camel.apache.org/schema/blueprint">
-        <route id="mqttToLog">
+        <route id="mqttTows">
 			<from uri="mqtt:IoT?host=tcp://localhost:1883&amp;subscribeTopicName=test.mqtt.topic&amp;userName=admin&amp;password=admin">
 			<description>The MQTT endpoint for consuming data sent from the devices.</description>
 			</from>
-			<convertBodyTo type="java.lang.String"/>
+			     <transform>
+              <simple>Timestamp=${date:now:YYYYMMDDhhmmss},${in.body}</simple>
+            </transform>
             <log message="The message contains ${body}" loggingLevel="INFO" id="iot_log">
 				<description>Logs all the incoming MQTT messages. This is just for verification purpouses.</description>
 			</log>
-			 <!--to uri="websocket://echo"/-->
+			<to uri="websocket:iot-mqtt?sendToAll=true"/>
         </route>
     </camelContext>
 </blueprint>
