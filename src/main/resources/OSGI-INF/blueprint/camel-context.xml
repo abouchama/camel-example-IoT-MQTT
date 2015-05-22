@@ -21,7 +21,7 @@
 
     <camelContext trace="true" xmlns="http://camel.apache.org/schema/blueprint">
         <route id="mqttTows">
-			<from uri="mqtt:IoT?host=tcp://localhost:1883&amp;subscribeTopicName=test.mqtt.topic&amp;userName=admin&amp;password=admin">
+			<from uri="mqtt:IoT?host=tcp://localhost:1883&amp;subscribeTopicName=iot-mqtt&amp;userName=admin&amp;password=admin">
 			<description>The MQTT endpoint for consuming data sent from the devices.</description>
 			</from>
 			     <transform>

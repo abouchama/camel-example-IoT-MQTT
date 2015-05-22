@@ -13,11 +13,16 @@ mvn install
 To run this example either embed the jar inside Spring
 or to run the route from within Maven try
 
+Add mqtt transport to A-MQ:
+
+<transportConnector name="mqtt" uri="mqtt://0.0.0.0:1883"/>
+
 mvn camel:run
 
 For more help see the Apache Camel documentation
 
     http://camel.apache.org/
+    
 
 ![alt tag](https://cloud.githubusercontent.com/assets/1347006/7772386/187edfa4-009e-11e5-96fc-ad2f881dfd2b.png)    
     
@@ -70,9 +75,27 @@ There is a separate Command model similar to the one above to request “field:l
  Internet automatically, by year 2020, there will be more then 50 Billions of device and things 
  connecting to the internet. 
  And Within the vast majority of device there are many standard protocols for them to interact and connect. 
- MQTT is one of them. A-MQ supports MQTT[^MQTT], Message Queuing Telemetry Transport. 
+ MQTT is one of them. A-MQ supports MQTT, Message Queuing Telemetry Transport. 
  In this session we will give some basic background on AMQP and demo how A-MQ can connect via Apache Qpid. And discuss the value it brings to the Enterprise.
  
- [^MQTT]: [MQTT](http://mqtt.org/) is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. 
+ 1. What's Internet of Things ?
+Billions of interconnected smart devices and machines measuring, collecting, analyzing
+and sharing useful information:
+- Intelligent systems 
+- Industrialized internet
+- Machine-to-Macine (M2M)
+
+Collect IoT Information --> Agregate IoT data reliably (A-MQ) and Real-time notification (FUSE)
+Analyze IoT Information --> IoT Data --> A-MQ --> Fuse
+ 
+ 
+ [MQTT](http://mqtt.org/) is a machine-to-machine (M2M)/"Internet of Things" connectivity protocol. 
  It was designed as an extremely lightweight publish/subscribe messaging transport. 
  It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium.
+ 
+ Companies are already making MQTT enabled things:
+ -SCADA monitors/controller
+ -Utility metering devices
+ -GPS/GSM tracking devices
+ 
+ OASIS standard
