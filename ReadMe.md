@@ -19,9 +19,23 @@ For more help see the Apache Camel documentation
 
 ![alt tag](https://cloud.githubusercontent.com/assets/1347006/7772386/187edfa4-009e-11e5-96fc-ad2f881dfd2b.png)    
     
+There are four main tasks the GPS Application needs to take care of for this example:
+- Publish GPS location via MQTT
+- Listen for commands via MQTT
+
+After deploying the camel application and requesting the past page, the app returns history for both values read and commands sent.  
+There is a separate Command model similar to the one above to request “field:lightmode” whatevers.
+ 
+ 
+![alt tag](https://cloud.githubusercontent.com/assets/1347006/7772804/c23192a6-00a0-11e5-8f37-daba3d55ee1d.png)
+ 
+ 
+ MQTT Client - Publish / Subscribe
+ 
  - Tools:
  
  Simple WebSocket Client -- Google Chrome Application
+ 
  MQTTLens -- Google Chrome Application
  
  - Keyword:
