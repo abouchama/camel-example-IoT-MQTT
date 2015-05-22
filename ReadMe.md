@@ -1,22 +1,19 @@
 Camel Example IoT with MQTT Protocol
 ====================================
+The Business case for the Internet of Things -- indeed for everything becoming network connected.
+The example is demonstrating how to get real time and value from IoT Data
 
-The example is demonstrating how to poll a Topic with mqtt
-and publish results in real time using web socket to a web page.
+The camel application poll a Topic with mqtt and publish results in real time using web socket to a web page.
 
 ----------
 To build this project use
 
-...
 mvn install
-...
 
 To run this example either embed the jar inside Spring
 or to run the route from within Maven try
 
-...
 mvn camel:run
-...
 
 For more help see the Apache Camel documentation
 
@@ -54,12 +51,26 @@ There is a separate Command model similar to the one above to request “field:l
  
  
  
- ### **Tools:**
+- **Tools:**
  
  Simple WebSocket Client -- Google Chrome Application
  
  MQTTLens -- Google Chrome Application
  
- ### **Keyword:**
+ - **Tags:**
  
  Camel, IoT, M2M, Integration
+ 
+ - **Links**
+ 
+ https://www.constellationr.com/content/iot-data-flow-management-science-getting-real-value-iot-data
+ 
+ - **Article**
+ The revolution of device and systems is allowing these parties to interact with each other via 
+ Internet automatically, by year 2020, there will be more then 50 Billions of device and things 
+ connecting to the internet. 
+ And Within the vast majority of device there are many standard protocols for them to interact and connect. 
+ MQTT is one of them. A-MQ supports MQTT, [Message Queuing Telemetry Transport][1]. 
+ In this session we will give some basic background on AMQP and demo how A-MQ can connect via Apache Qpid. And discuss the value it brings to the Enterprise.
+ 
+ [1]: http://mqtt.org/
