@@ -99,3 +99,27 @@ Analyze IoT Information --> IoT Data --> A-MQ --> Fuse
  -GPS/GSM tracking devices
  
  OASIS standard
+ 
+ 
+The Internet of Things (IoT) will include 25 billion installed units by 2020 and will impact all major vertical industries. 
+IoT will create new business models, facilitate digital business and radically alter the way we understand the delivery of "IT" services today. 
+This webinar explores how should you prepare for this opportunity, and how this will impact you, your customers and the overall market.
+
+What IoT is and why it is happening now
+Which industries will be most affected by this upcoming change, and where the opportunities will be
+How to prepare for this change and how Apache Camel can helps us accomplish that in practice. 
+http://java.dzone.com/articles/make-your-iot-gateway-wifi
+
+An Internet of Things
+"In the next century, planet earth will don an electronic skin. 
+It will use the Internet as a scaffold to support and transmit its sensations." - Neil Gross 1999
+
+
+Degradation of air quality in cities is the result of a complex interaction between natural and anthropogenic environmental conditions. 
+With the increase in urbanization and industrialization and due to poor control on emissions and little use of catalytic converters, 
+a great amount of particulate and toxic gases are produced [1]. 
+The objective of this paper is to monitor air pollution on roads and track vehicles which cause pollution over a specified limit. 
+Increasing number of automobiles is a serious problem that has been around for a very long time. 
+This paper proposes use of Internet of Things(IoT)[2] to address this problem. 
+Here, combination of Wireless Sensor Network and Electrochemical Toxic Gas Sensors and the use of a 
+Radio Frequency Identification (RFID) tagging system to monitor car pollution records anytime anywhere 
