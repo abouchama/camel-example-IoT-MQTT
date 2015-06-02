@@ -55,6 +55,11 @@ There is a separate Command model similar to the one above to request “field:l
 >Good luck with your projects!
  
  
+ >- **Kibana Dashboard:**
+ 
+ ![alt tag](https://cloud.githubusercontent.com/assets/1347006/7936097/c789bd20-0936-11e5-95dd-7496dae922b7.png)
+ 
+ 
  
 - **Tools:**
  

@@ -22,7 +22,7 @@
           for verification purpouses.</description>
         </log>
         <process ref="ByteToJson" />
-        <to uri="elasticsearch://elasticsearch?ip=localhost&amp;port=9300&amp;operation=INDEX&amp;indexName=twitter&amp;indexType=tweet"/>
+        <to uri="elasticsearch://cluster-ES?ip=localhost&amp;port=9300&amp;operation=INDEX&amp;indexName=twitter&amp;indexType=tweet"/>
         <convertBodyTo type="java.lang.String"/>
         <to uri="websocket:iot-mqtt?sendToAll=true"/>
     </route>

@@ -1,0 +1,13 @@
+curl -XPUT 'http://localhost:9200/twitter/_mapping/tweet' -d '
+{
+    "tweet" : {
+        "properties" : {
+            "event_datetime" : {"type" : "date"},
+      "pollution_degree" : {"type" : "integer"},
+      "latitude" : {"type" : "double"},
+      "longitude" : {"type" : "double"},
+      "location" : {"type" : "geo_point"}
+        }
+    }
+}
+'
