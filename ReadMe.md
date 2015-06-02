@@ -24,7 +24,7 @@ For more help see the Apache Camel documentation
     http://camel.apache.org/
     
 
-![alt tag](https://cloud.githubusercontent.com/assets/1347006/7772386/187edfa4-009e-11e5-96fc-ad2f881dfd2b.png)    
+![alt tag](https://cloud.githubusercontent.com/assets/1347006/7936366/ac57435e-0938-11e5-831b-959188d8a84b.png)    
     
 There are four main tasks the GPS Application needs to take care of for this example:
 - Publish GPS location via MQTT

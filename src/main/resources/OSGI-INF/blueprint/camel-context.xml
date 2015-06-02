@@ -23,8 +23,6 @@
         </log>
         <process ref="ByteToJson" />
         <to uri="elasticsearch://cluster-ES?ip=localhost&amp;port=9300&amp;operation=INDEX&amp;indexName=twitter&amp;indexType=tweet"/>
-        <convertBodyTo type="java.lang.String"/>
-        <to uri="websocket:iot-mqtt?sendToAll=true"/>
     </route>
 </camelContext>
 <bean id="ByteToJson" class="com.abouchama.ByteToJson" />
