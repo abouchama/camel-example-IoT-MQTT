@@ -51,5 +51,5 @@ You should obtain the following dashboard:
 >- ** Article: **
 
 You can find the entire article here:
- 
-http://bushorn.com/flow-activity-monitoring-logging-analazying-and-monitoring-data-of-our-integration-flows-camel-using-elasticsearch-logstash-and-kibana/
+
+[a link!](http://bushorn.com/flow-activity-monitoring-logging-analazying-and-monitoring-data-of-our-integration-flows-camel-using-elasticsearch-logstash-and-kibana/)
