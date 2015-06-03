@@ -19,6 +19,7 @@ With the built-in component, it will save lots of code implementation time.
  3. Elasticsearch
  create a new index, with the following mapping:
  
+ ```
  curl -XPUT 'http://localhost:9200/twitter/_mapping/tweet' -d '
 {
     "tweet" : {
@@ -32,6 +33,7 @@ With the built-in component, it will save lots of code implementation time.
     }
 }
 '
+```
 
 4. Kibana Dashboard: 
 
