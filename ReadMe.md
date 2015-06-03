@@ -46,7 +46,8 @@ You should obtain the following dashboard:
 ![alt tag](https://cloud.githubusercontent.com/assets/1347006/7936097/c789bd20-0936-11e5-95dd-7496dae922b7.png)
   
    
->- **Article**
+>- ** Article: **
+
 You can find the entire article here:
  
 http://bushorn.com/flow-activity-monitoring-logging-analazying-and-monitoring-data-of-our-integration-flows-camel-using-elasticsearch-logstash-and-kibana/
