@@ -3,20 +3,15 @@ package com.abouchama;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectOutputStream;
 import java.net.URISyntaxException;
-import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-
-import javax.xml.ws.Holder;
-
 import org.fusesource.mqtt.client.BlockingConnection;
 import org.fusesource.mqtt.client.MQTT;
 import org.fusesource.mqtt.client.QoS;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.json.simple.JSONObject;
 
 /**
  * This class only publish MQTT messages to a define topic with a certain frequency.
@@ -68,6 +63,11 @@ public class MQTT_Producer implements Runnable {
             /*// Nantes 
             map.put("location", "47.2183710, -1.5536210");
             map.put("pollution_degree",""+new Integer(0));*/
+
+            // Le Havre 
+            map.put("location", "49.4943700, 0.1079290");
+            map.put("pollution_degree",""+new Integer(1));
+
             
             /*// Paris 
             map.put("location", "48.8566140, 2.3522219");
@@ -93,9 +93,9 @@ public class MQTT_Producer implements Runnable {
             map.put("location", "43.6046520, 1.4442090");
             map.put("pollution_degree",""+new Integer(1));*/
             
-            // Brest
+            /*// Brest
             map.put("location", "48.3903940, -4.4860760");
-            map.put("pollution_degree",""+new Integer(7));
+            map.put("pollution_degree",""+new Integer(7));*/
             
             ByteArrayOutputStream b = new ByteArrayOutputStream();
             ObjectOutputStream o=new ObjectOutputStream(b);
