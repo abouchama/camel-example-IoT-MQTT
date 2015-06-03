@@ -52,4 +52,4 @@ You should obtain the following dashboard:
 
 You can find the entire article here:
 
-http://bushorn.com/flow-activity-monitoring-logging-analazying-and-monitoring-data-of-our-integration-flows-camel-using-elasticsearch-logstash-and-kibana/
+http://bushorn.com/iot-service-environment-using-apache-camel-jboss-mq/
